@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Cuaderno floral A5",
+    "descripcion": "Cuaderno de pasta dura con 120 hojas rayadas.",
+    "precio": 95.0,
+    "categoria": "Cuadernos",
+    "imagen": "cuaderno_floral",
+    "badge": "new",
+    "whatsapp": "5215555555555"
+  },
+  {
+    "nombre": "Plumones pastel 12 piezas",
+    "descripcion": "Set de plumones de punta fina en tonos pastel.",
+    "precio": 129.0,
+    "categoria": "Arte",
+    "imagen": "plumones_pastel",
+    "badge": "hot",
+    "whatsapp": "5215555555555"
+  },
+  {
+    "nombre": "Notas adhesivas colores",
+    "descripcion": "Paquete de notas adhesivas para organizar pendientes.",
+    "precio": 49.0,
+    "categoria": "Organizacion",
+    "imagen": "notas_colores",
+    "badge": "",
+    "whatsapp": "5215555555555"
+  }
+]

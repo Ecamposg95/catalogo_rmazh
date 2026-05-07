@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo Papelería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <p class="eyebrow">Papelería creativa</p>
+        <h1>Catálogo Papelería</h1>
+        <p class="tagline">Cuadernos, colores, detalles y básicos para estudiar, crear y regalar.</p>
+      </div>
+    </header>
+
+    <main class="catalog-shell">
+      <section class="toolbar" aria-label="Herramientas del catálogo">
+        <label class="search-box" for="busqueda">
+          <span>Buscar</span>
+          <input id="busqueda" type="search" placeholder="Cuadernos, plumas, regalos..." autocomplete="off">
+        </label>
+        <div class="results-counter" id="contador">0 productos</div>
+      </section>
+
+      <section class="filters" aria-label="Filtros por categoría">
+        <div id="filtros" class="filter-list"></div>
+      </section>
+
+      <p class="empty-data-message" id="mensaje-datos" hidden>
+        Agrega tus productos en data/productos.xlsx y ejecuta tools/generar_productos.py
+      </p>
+
+      <section id="grid-productos" class="product-grid" aria-live="polite"></section>
+
+      <section id="sin-resultados" class="no-results" hidden>
+        <h2>No encontramos productos</h2>
+        <p>Prueba con otra búsqueda o categoría.</p>
+      </section>
+    </main>
+
+    <script src="assets/scripts/catalogo.js"></script>
+  </body>
+</html>
